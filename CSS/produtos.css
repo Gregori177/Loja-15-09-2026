@@ -1,0 +1,109 @@
+*{
+   margin: 0px;
+   padding: 0px;  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+    color: #3e2723;
+}
+
+header {
+    background-color: #3e2723;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.voltar a{
+    display: inline-block;
+    background-color: #d7a86e;
+    color: #3e2723;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-left: 670px;
+    margin-bottom: 10px;
+}
+.voltar a:hover{
+    display: inline-block;
+    background-color: #d7a86e;
+    color: #3e2723;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 3px white;
+    height: 25px;
+    width: 180px;
+    color: white;
+    transition: 0.5s;
+}
+nav h1 {
+    color: #ffffff;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.destaques {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.todos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+
+.card {
+    background-color: #eec798;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+.card:hover{
+    background-color: #eec798;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px white;
+    color: white;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+    
